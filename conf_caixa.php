@@ -1,7 +1,7 @@
 <?php include 'actions/logged.php';
 if (@$_SESSION['acesso'] == 1){
     } else {
-        header("location:../index.php");
+        header("location:../home.php");
     }?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -14,7 +14,7 @@ if (@$_SESSION['acesso'] == 1){
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-  <?php 
+  <?php
     include 'header.php';
     include 'config.php';
     $sql = "SELECT nivel_min, fluxo_max, volume FROM info_caixa where cod_caixa = ".$_SESSION['cod_caixa']." order by data desc limit 1";
@@ -26,7 +26,7 @@ if (@$_SESSION['acesso'] == 1){
       }
     mysqli_close($con);
   ?>
-  
+
     <div class="row">
       <div class="small-12 columns text-center">
         <h2>Volume: <?php echo $_SESSION['config']['volume']; ?> L</h2>
@@ -46,8 +46,8 @@ if (@$_SESSION['acesso'] == 1){
           <input type="submit" value="alterar" class="button success">
         </div>
       </form>
-    </div>    
-    
+    </div>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

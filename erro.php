@@ -14,11 +14,11 @@
       <div class="large-12 columns text-center">
         <h1>Existe algum problema</h1>
         <h2>Por favor tente novamente mais tarde</h2>
-        <a href="index.php" class="button">Voltar</a>
+        <a href="home.php" class="button">Voltar</a>
       </div>
     </div>
-    
-    
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

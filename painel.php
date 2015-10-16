@@ -1,8 +1,8 @@
-<?php 
+<?php
     include 'actions/logged.php';
     if (@$_SESSION['acesso'] == 2 or @$_SESSION['acesso'] == 3){
     } else {
-        header("location:../index.php");
+        header("location:../home.php");
     }?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -15,7 +15,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-  <?php include 'header.php'; ?> 
+  <?php include 'header.php'; ?>
   <br>
     <div class="row">
         <div class="small-12 columns">

@@ -2,7 +2,7 @@
 
 <?php
   session_start();
-  if (@$_SESSION['logged'] == True){   header("location:index.php");
+  if (@$_SESSION['logged'] == True){   header("location:home.php");
   } else {  }?>
 <html class="no-js" lang="en">
   <head>
@@ -14,7 +14,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body class="texto_centro">
-    <?php include 'header.php'; ?> 
+    <?php include 'header.php'; ?>
     <div class="row">
       <br>
       <div class="small-12 medium-8 columns small-centered panel">
@@ -31,8 +31,8 @@
         </form>
       </div>
     </div>
-    
-    
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

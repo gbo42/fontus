@@ -1,7 +1,7 @@
 <?php include 'actions/logged.php';
 if (@$_SESSION['acesso'] == 1){
     } else {
-        header("location:../index.php");
+        header("location:../home.php");
     } ?>
 <html>
   <head>

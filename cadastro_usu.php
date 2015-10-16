@@ -2,7 +2,7 @@
     include 'actions/logged.php';
     if (@$_SESSION['acesso'] == 2 or @$_SESSION['acesso'] == 3){
     } else {
-        header("location:../index.php");
+        header("location:../home.php");
     }?>
 <!doctype html>
 <html class="no-js" lang="en">

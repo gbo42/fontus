@@ -15,11 +15,11 @@
       <div class="large-12 columns text-center">
         <h1>Tudo deu certo</h1>
         <h2>Aguarde que logo alguém da nosso equipe entrará em contato</h2>
-        <a href="index.php" class="button">Voltar</a>
+        <a href="home.php" class="button">Voltar</a>
       </div>
     </div>
-    
-    
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

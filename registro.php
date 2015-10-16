@@ -3,7 +3,7 @@
   <?php include 'actions/logged.php';
   if (@$_SESSION['acesso'] == 1){
     } else {
-        header("location:../index.php");
+        header("location:../home.php");
     }?>
   <head>
     <meta charset="utf-8" />

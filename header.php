@@ -1,7 +1,7 @@
 	<div class="fixed">
 		<nav class="top-bar" data-topbar role="navigation">
 			<ul class="title-area">
-				<li class="name"><h1><a href="index.php">Fontus</a></h1></li>
+				<li class="name"><h1><a href="home.php">Fontus</a></h1></li>
 				<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
 			</ul>
 			<?php
@@ -18,7 +18,7 @@
 					<li><a href="usuario.php">Usuario</a></li>
 					<li><a href="actions/logout.php">Logout</a></li>
 					</ul>
-					</section> 
+					</section>
 					';
 					break;
 				case 2:
@@ -27,14 +27,14 @@
 					<ul class="left">
 					<li><a href="cadastro_usu.php">Cadastro Usuário</a></li>
 					</ul>
-					</section> 
+					</section>
 					<section class="top-bar-section">
 					<ul class="right">
 					<li><a href="contato.php">Contato</a></li>
 					<li><a href="usuario.php">Usuario</a></li>
 					<li><a href="actions/logout.php">Logout</a></li>
 					</ul>
-					</section> 
+					</section>
 					';
 					break;
 				case 3:
@@ -44,7 +44,7 @@
 					<li><a href="cadastro_usu.php">Cadastro Usuário</a></li>
 					<li><a href="cadastro_admin.php">Cadastro Administrador</a></li>
 					</ul>
-					</section> 
+					</section>
 					<section class="top-bar-section">
 					<ul class="right">
 					<li><a href="contato.php">Contato</a></li>
@@ -58,4 +58,4 @@
 			?>
 		</nav>
 
-	</div>    
+	</div>

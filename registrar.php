@@ -4,9 +4,6 @@
 	$fluxo = $_POST['fluxo'];
 	$nivel = $_POST['nivel'];
 	$msg = "";
-	$cod = 12;
-	$fluxo = 2;
-	$nivel = 20;
 
 	$cadastra = "INSERT into log_caixa (cod_caixa, fluxo, nivel) VALUES ('$cod', '$fluxo', '$nivel')";
 	mysqli_query($con, $cadastra);
@@ -29,4 +26,5 @@
 		mysqli_query($con, $cadastra);
 		echo $dados[email];
 		mail($dados[email] , "Alerta - Fontus", $msg);
+	}
 ?>

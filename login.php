@@ -30,7 +30,7 @@
           </div>
         </form>
           <div class="small-12 columns small-centered">
-            <a href="fontus.pe.hu" class="button secondary">
+            <a href="fontus.pe.hu/index.php" class="button secondary">
               ir para o site
             </a>
           </div>

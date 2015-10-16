@@ -21,9 +21,9 @@
 			return False;
 		}
 	}
-	
+
 	if(logar($cod_usu, $senha)){
-		header("location:../index.php");
+		header("location:../home.php");
 	} else {
 		header('location:../login.php?erro=uos');
 	}

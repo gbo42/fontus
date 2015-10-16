@@ -36,11 +36,6 @@
                     </label>
                 </div>
                 <div class="small-12 columns">
-                    <label>imagem
-                        <input type="file" name="foto">
-                    </label>
-                </div>
-                <div class="small-12 columns">
                     <label>endereço
                         <input type="text" name="end">
                     </label>
@@ -71,6 +66,11 @@
                 <div class="small-12 medium-4 columns">
                     <label>fluxo máximo
                         <input type="number" name="fluxo">
+                    </label>
+                </div>
+                <div class="small-12 columns">
+                    <label>email para alertas
+                        <input type="text" name="email">
                     </label>
                 </div>
             </fieldset>

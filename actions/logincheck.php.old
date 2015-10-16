@@ -1,0 +1,22 @@
+<?php
+	include '../config.php';
+	$cod_usu=$_POST['cod_usu']; 
+	$senha=$_POST['senha']; 
+
+	$sql="SELECT * FROM usuario WHERE cod_usu='$cod_usu' and senha='$senha'";
+	$result=mysqli_query($con, $sql);
+	$count=mysqli_num_rows($result);
+
+	if($count==1){
+		session_start();
+		$_SESSION['logged'] = True;
+		$_SESSION['senha'] = $senha;
+		$_SESSION['cod_usu'] = $cod_usu;
+		$dados = mysqli_fetch_assoc($result);
+		$_SESSION['cod_caixa'] = $dados['cod_caixa'];
+		$_SESSION['acesso'] = $dados['acesso'];
+		header("location:../index.php");
+		} else {
+		header('location:../login.php?erro=uos');
+	}
+?>

@@ -1,0 +1,11 @@
+table {
+	margin: auto;
+}
+
+#mensagem {
+	height: 300px;
+}
+
+#submit {
+	margin-top: 10px;
+}

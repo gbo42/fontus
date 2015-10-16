@@ -1,8 +1,8 @@
 <?php
 	session_start();
-	if ($_SESSION['logged'] == True){ 
+	if ($_SESSION['logged'] == True){
 	} else {
-		header("location:../index.php");
+		header("location:../login.php");
 	}
 
 ?>

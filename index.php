@@ -24,7 +24,7 @@ if(@$_SESSION['acesso'] < 2){
 	<?php include 'header.php'; ?>
 	<div class="row">
 		<div class="large-12 columns">
-			<h1> Bem-vindo ao Waterbox-o-Matic</h1>
+			<h1> Bem-vindo ao Fontus</h1>
 			<br>
 			<h2> Últimos Alertas </h2>
 			<table>

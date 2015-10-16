@@ -14,7 +14,7 @@
 	$email = $_POST['email'];
 
 	$cadastra = "INSERT into usuario (cod_usu, nome, cpf, end, senha, cod_caixa) VALUES ('$cod_usu', '$nome', '$cpf', '$end', '$senha', '$cod_caixa')";
-	$cadastra_caixa = "INSERT into info_caixa (cod_caixa, nivel_min, fluxo_max, volume) VALUES ('$cod_caixa', '$email', '$nivel_min', '$fluxo_max', '$volume')";
+	$cadastra_caixa = "INSERT into info_caixa (cod_caixa, email, nivel_min, fluxo_max, volume) VALUES ('$cod_caixa', '$email', '$nivel_min', '$fluxo_max', '$volume')";
 
 	if(mysqli_query($con, $cadastra)){
 		if(mysqli_query($con, $cadastra_caixa)){

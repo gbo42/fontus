@@ -3,6 +3,7 @@ Trabalho final para o curso integrado de Técnico em Informática no TECPUC
 
 ## Funcionamento:
 Com instalação de hardware externo é possível obter informações sobre uma caixa d'água (nível e vazão).
+
 O sistema web permite a visualização de um histórico dos dados e a criação de alertas caso o nível fique abaixo do nível ou ocorra vazão excessiva.
 
 ## Tecnologias utilizadas:
@@ -16,7 +17,7 @@ Sistema Web:
   - PHP
   - MySQL
   
-- Hardware:
+Hardware:
 - Arduino
 - Shield Ethernet
 - Sensor de Fluxo
